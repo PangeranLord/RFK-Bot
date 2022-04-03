@@ -35,18 +35,18 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ╠➥ *Uptime:* ${uptime}
 ║
 ╠═〘 DONASI 〙 ═
-╠➥ Pulsa : 0896-7776-3976
-╠➥ OVO : 0896-7776-3976
-╠➥ Dana : 0896-7776-3976
-╠➥ Gopay : 0896-7776-3976
+╠➥ Pulsa : 0878-3214-7584
+╠➥ OVO : 0878-3214-7584
+╠➥ Dana : 0878-3214-7584
+╠➥ Gopay : 0878-3214-7584
 ║
 ╠═ Request? ${package.bugs.url}
 ╠═ officiall Group *${conn.getName(conn.user.jid)}* :
 ${(global.linkGC).map((v, i) => '║ *Group ' + (i + 1) + '*\n║' + v).join`\n║\n`}
 ║
 ║ 
-╠═ ©2021 ${package.name}
-╠═ Script original by Nurutomo
+╠═ ©2022 ${package.name}
+╠═ Script original by Pangeran
 ╠═〘 ${namabot} 〙 ═
 `.trim(), m)
 }
