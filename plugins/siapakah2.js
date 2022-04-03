@@ -17,6 +17,5 @@ handler.help = ['', 'kah'].map(v => 'siapa' + v + ' <teks>?')
 handler.tags = ['kerang']
 handler.customPrefix = /(\?$)/
 handler.command = /^siapa(kah)?$/i
-handler.premium = true
 
 module.exports = handler
