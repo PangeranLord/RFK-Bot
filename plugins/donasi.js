@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fet
 ├ *OVO* : 0878-3214-7584
 ├ *Dana* : 0878-3214-7584
 ├ *Gopay* : 0878-3214-7584
-└〔 $namabot 〕
+└〔 ${namabot} 〕
 `.trim(), footer, 'Owner', '.owner')
 handler.help = ['donasi']
 handler.tags = ['info']
