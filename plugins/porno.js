@@ -22,8 +22,8 @@ handler.help = ['bokepic']
 handler.tags = ['bokep']
 handler.command = /^(bokepic)$/i
 handler.off = false
-handler.private = false
-
+handler.private = true
+handler.premium = true
 handler.limit = 1
 
 module.exports = handler
