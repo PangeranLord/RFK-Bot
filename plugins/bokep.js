@@ -9,7 +9,7 @@ handler.help = ['bkp']
 handler.tags = ['bokep']
 
 handler.command = /^(bkp|bokep)$/i
-handler.premium = false
+handler.premium = true
 handler.register = true
 handler.limit = 5
 handler.private = true
