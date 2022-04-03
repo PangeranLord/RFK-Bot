@@ -22,7 +22,7 @@ await conn.sendFile(m.chat, link, 'tt.mp4', `
 💬 ${statistic.commentCount} Comments
 - *By:* ${author.nickname} (${author.username})
 - *Desc:*
-${description}\n\n\n> X~RyuuZeyy\n> RyuuZeyy\n> RyuuTodd\n> ./Rey\n> RFK-Team
+${description}\n\n\n> *Sahabat DR*\n> _/.Dr'KokoRey_\n> _/.Dr'KokoIkky_\n> _/.Dr'KokoPangeran_\n> *Team R•I•P*
 `, m, false, { contextInfo: { forwardingScore: 999, isForwarded: true }})
 }
 
@@ -31,6 +31,7 @@ handler.tags = ['downloader']
 //handler.command = /^tiktok$/i
 handler.command = /^(tik(tok)?(dl)?)$/i
 handler.limit = true
+handler.premium = true
 module.exports = handler
 
 
