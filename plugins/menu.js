@@ -8,7 +8,7 @@ const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
-┏━━〔 %me 〕━⬣
+┏━━〔 $namabot 〕━⬣
 ┃⬡ Hai, %name!
 ┃
 ┃⬡ Tersisa *%limit Limit*
@@ -22,8 +22,8 @@ const defaultMenu = {
 ┃
 ┃⬡ Uptime: *%uptime (%muptime)*
 ┃⬡ Database: %rtotalreg dari %totalreg
-┃⬡ Github:
-┃⬡ %github
+┃⬡ Instagram:
+┃⬡ https://instagram.com/pangerann21_
 ┗━━━━━━⬣`.trimStart(),
   header: '┏━━〔 %category 〕━⬣',
   body: '┃⬡%cmd %islimit %isPremium',
@@ -295,11 +295,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": ".? grup"
                 }, {
                   "title": "[🔝] Premium",
-                  "description": "Menu Untuk Premium",
+                  "description": "Menu Untuk IstriKu",
                   "rowId": ".? premium"
                 }, {
                   "title": "[🖥️] Internet",
-                  "description": "Cari Sesuatu Di Bot",
+                  "description": "Cari Sesuatu Di Bot Koko Pangeran",
                   "rowId": ".? internet"
                 }, {
                   "title": "[🥷] Anonymous",
@@ -311,19 +311,19 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": ".? nulis"
                 }, {
                   "title": "[📺] Downloader",
-                  "description": "Download Sesuatu Di Bot",
+                  "description": "Download Sesuatu Di Bot Koko Pangeran",
                   "rowId": ".? downloader"
                 }, {
                   "title": "[🔧] Tools",
-                  "description": "Tools Yang Bisa di Gunakan Di Bot",
+                  "description": "Tools Yang Bisa di Gunakan Di Bot Koko Pangeran",
                   "rowId": ".? tools"
                 }, {
                   "title": "[🎇] Fun",
-                  "description": "Menu Ceria",
+                  "description": "Menu Ceria Di Bot Koko Pangeran",
                   "rowId": ".? fun"
                 }, {
                   "title": "[📂] Database",
-                  "description": "Simpan Sesuatu Di Bot",
+                  "description": "Simpan Sesuatu Di Bot Koko Pangeran",
                   "rowId": ".? database"
                 }, {
                   "title": "[📝] Vote & Absen",
@@ -331,19 +331,19 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": ".? vote"
                 }, {
                   "title": "[🎙️] Pengubah Suara",
-                  "description": "Ubah Suaramu",
+                  "description": "Ubah Suaramu Di Bot Koko Pangeran",
                   "rowId": ".? audio"
                 }, {
                   "title": "[🤖] Jadi Bot",
-                  "description": "Jadi Bot",
+                  "description": "Jadi Bot di Koko Pangeran",
                   "rowId": ".? jadibot"
                 }, {
                   "title": "[⛩️] Anime",
-                  "description": "Cari Anime Di Bot",
+                  "description": "Cari Anime Di Bot Koko Pangeran",
                   "rowId": ".? anime"
                 }, {
                   "title": "[ℹ️] Info",
-                  "description": "Info Tentang Bot",
+                  "description": "Info Tentang Bot Koko Pangeran",
                   "rowId": ".? info"
                 }, {
                   "title": "Tanpa Kategori",
@@ -351,7 +351,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": ".? tanpakategori"
                 }, {
                   "title": "[🧑‍💻] Owner",
-                  "description": "Menu Khusu Owner",
+                  "description": "Menu Khusu Owner Koko Pangeran",
                   "rowId": ".? owner"
                 }
               ]
