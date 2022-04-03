@@ -34,5 +34,6 @@ Bonus: ${poin} XP
 handler.help = ['susunkata']
 handler.tags = ['game']
 handler.command = /^susunkata/i
+handler.premium = true
 
 module.exports = handler
