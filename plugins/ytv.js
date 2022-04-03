@@ -28,8 +28,8 @@ handler.tags = ['downloader']
 handler.command = /^yt(v|mp4)?$/i
 handler.owner = false
 handler.mods = false
-handler.premium = false
-handler.group = false
+handler.premium = true
+handler.group = true
 handler.private = false
 
 handler.admin = false
