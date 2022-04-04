@@ -1,9 +1,9 @@
 //WM BY ./RYUUUTODDD
 
 modepublic = false
-autoreyad = true
+autoreyad = false
 autoon = true
-autoketik = true
+autoketik = false
 autovn = true
 
 
@@ -219,7 +219,7 @@ if (opts['swonly'] && m.chat !== 'status@broadcast') return
             name: this.getName(m.sender),
             age: -1,
             regTime: -1,
-            autolevelup: true,
+            autolevelup: false,
             lastIstigfar: 0,
         }
 
@@ -242,19 +242,19 @@ if (opts['swonly'] && m.chat !== 'status@broadcast') return
           if (!('viewonce' in chat)) chat.viewonce = true
         } else global.db.data.chats[m.chat] = {
           isBanned: false,
-          welcome: true,
-          detect: true,
+          welcome: false,
+          detect: false,
           sWelcome: '',
           sBye: '',
           sPromote: '',
           sDemote: '',
-          descUpdate: true,
+          descUpdate: false,
           delete: false,
-          rpg: true,
+          rpg: false,
           nsfw: false,
-          antiBadword: true,
-          antiLink: true,
-          viewonce: true,
+          antiBadword: false,
+          antiLink: false,
+          viewonce: false,
         }
         
                 let settings = global.db.data.settings[this.user.jid]
@@ -272,10 +272,10 @@ if (opts['swonly'] && m.chat !== 'status@broadcast') return
           if (!isNumber(settings.status)) settings.status = 0
         } else global.db.data.settings[this.user.jid] = {
           anon: false,
-          //anticall: true,
+          anticall: true,
           antispam: true,
           antitroli: true,
-          backup: true,
+          backup: false,
           backupDB: 0,
           groupOnly: false,
           jadibot: false,
@@ -606,10 +606,10 @@ global.dfail = (type, m, conn) => {
     rowner: '⚠️☣️Akses ditolak,☣️⚠️\n\nSilahkan hubungi️ _*Pemilik Bot!*_',
     owner: '⚠️☣️Akses ditolak,☣️⚠️\n\nSilahkan hubungi ️_*OWNER!*_',
     mods: '⚠️☣️Akses ditolak,☣️⚠️\n\nSilahkan hubungi️ _*Moderator!*_',
-    premium: '⚠️☣️Khusus member _*Premium*_☣️⚠️',
+    premium: '⚠️☣️Khusus Istri Pangeran Saja(PREMIUM)☣️⚠️',
     group: 'Perintah ini hanya dapat digunakan di grup!',
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
-    admin: 'Perintah ini hanya untuk *Admin* grup!',
+    admin: 'Lah emng Lo admin Group Sini Anj*ng‼️',
     nsfw: 'Perintah ini hanya bisa diaktifkan oleh owner',
     botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
     unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar ${name}.16*`
