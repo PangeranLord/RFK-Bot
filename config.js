@@ -29,7 +29,7 @@ supaya saya menambahkan nama Anda disini
 global.linkGC = [''] // ganti jadi group lu
 
 //Berbagai itu indah @Parel / Rxfly 
-global.owner = ['6287822257028', '+6287832147584', '+6287822257028', '+6281271398520'] // Put your number here
+global.owner = ['6287822257028', '6287832147584', '6287822257028', '6281271398520'] // Put your number here
 global.mods = ['6287822257028'] // Want some help?
 global.prems = ['0','6287822257028','6287832147584'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
