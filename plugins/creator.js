@@ -1,27 +1,27 @@
 const { MessageType } = require('@adiwajshing/baileys')
 const PhoneNumber = require('awesome-phonenumber')
 async function handler(m) {
-  let name = 'Koko Pangeran🗿'
+  let name = 'Koko Pangeran'
   number = owner[0].replace(/[^0-9]/g, '')
   let njid = number + '@s.whatsapp.net'
   let onW = await this.isOnWhatsApp(njid) || { isBusiness: false }
 
-  let name2 = 'Nomor Bot Pangeran🎮'
+  let name2 = 'Nomor Bot Pangeran'
   number2 = owner[1].replace(/[^0-9]/g, '')
   let njid2 = number2 + '@s.whatsapp.net'
   let onW2 = await this.isOnWhatsApp(njid2) || { isBusiness: false }
 
-  let name3 = 'Koko Pangeran🗿'
+  let name3 = 'Koko Pangeran'
   number3 = owner[2].replace(/[^0-9]/g, '')
   let njid3 = number3 + '@s.whatsapp.net'
   let onW3 = await this.isOnWhatsApp(njid3) || { isBusiness: false }
 
-let name4 = 'Cece Gntg💦'
+let name4 = 'Cece Gntg'
   number4 = owner[3].replace(/[^0-9]/g, '')
   let njid4 = number4 + '@s.whatsapp.net'
   let onW4 = await this.isOnWhatsApp(njid4) || { isBusiness: false }
 
-  m.reply(`Itu No OwnKu Yang _*Ganteng/Cantik*_ Kak😙\n\nSilahkan Chat Jika Ada Keperluan.\nJangan Chat Own Cewe Anj!\nChat "P" atau Minta Save Kemungkinan Tidak Akan di Balas.`)
+  m.reply(`Itu Nomor Ownerku Paling _*Ganteng/Cantik*_ Kak!\n\nSilahkan Chat Jika Ada Keperluan.\nTidak Menerima Chat "P" Utamakan Salam ya Sayang❤️`)
   this.sendMessage(m.chat, {
     contacts: [{
       displayname: name, vcard: `
