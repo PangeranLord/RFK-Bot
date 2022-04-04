@@ -26,12 +26,12 @@ supaya saya menambahkan nama Anda disini
 >>> BOLEH MENAMBAHKAN, JANGAN MENGHILANGKAN <<<
 */
 
-global.linkGC = ['https://chat.whatsapp.com/tytyd.com'] // ganti jadi group lu
+global.linkGC = [''] // ganti jadi group lu
 
 //Berbagai itu indah @Parel / Rxfly 
-global.owner = ['6289677763976', '+7 922 481-65-16', '+6285724447078', '+6285860146165'] // Put your number here
-global.mods = ['2'] // Want some help?
-global.prems = ['1'] // Premium user has unlimited limit
+global.owner = ['6287822257028', '+6287832147584', '+6287822257028', '+6281271398520'] // Put your number here
+global.mods = ['6287822257028'] // Want some help?
+global.prems = ['0','6287822257028','6287832147584'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -54,16 +54,16 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'ṚḞḲ ⸚ Ḅöẗ'
+global.packname = 'yg nyuri jdi pacar saya'
 //global.author = 'LitRHap'
 //global.packname = './RyuuZeyy\n\n\n./RyuuTod\n\n\n\n\nhttps://wa.me/message/MJKHC7377YLDA1\n\n\n\n\nwa.me/62896-7776-3976\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'
-global.author = ''
+global.author = '©Koko Pangeran.'
 
 // silakan di ganti klo mau
-global.wait = '_*tunggu..*_'
+global.wait = '_*Tunggu Sebentar, Sedang Kami Entot💦*_'
 global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9'
 global.nsfw = 'Fitur NSFW Dimatikan\nKetik *!enable* *nsfw* untuk menggunakan fitur ini!\n“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padany,” \n(TQS. Al-Nur [24]: 30-31).'
-global.eror = '_*Server Error*_'
+global.eror = '_*Server Error Sayangku💦*_'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 
@@ -100,29 +100,29 @@ lolkey = 'rey2k22'
 lolKey = 'rey2k22'
 
 
-footer = '\n\n\n@ＪＥＭ － Ｂｏｔ'
-namabot = 'ＪＥＭ － Ｂｏｔ'
+footer = 'ᵈʳᴋᴏᴋᴏ ᴘᴀɴɢᴇʀᴀɴƸ̵̡Ӝ̵̨̄Ʒ'
+namabot = 'ᵈʳᴋᴏᴋᴏ ᴘᴀɴɢᴇʀᴀɴƸ̵̡Ӝ̵̨̄Ʒ'
 bc = namabot
 //bc = 'ＪＥＭ － Ｂｏｔ'
-namaowner = 'Andra Kntl'
-ceco = 'Gay🗿🚬'
+namaowner = 'Koko Pangeran'
+ceco = 'Ganteng🗿🚬'
 let tum = fs.readFileSync('./gambar1.jpeg')
 let tum1 = fs.readFileSync('./gambar1.jpeg')
 let tum2 = fs.readFileSync('./gambar2.jpeg')
 let tum3 = fs.readFileSync('./gambar3.jpeg')
 global.thumb = tum
-global.thumb1 = tum
+global.thumb1 = tum1
 global.thumb2 = tum2
 global.thumb3 = tum3
-run = '𝙍𝙚𝙖𝙡 𝙁𝙖𝙢𝙨 𝙆𝙞𝙡𝙡𝙚𝙧'
-gc1 = 'https://chat.whatsapp.com/FJkbQjpewltErmQRwzC9rj'
-gc2 = 'https://chat.whatsapp.com/HTcmEqjQeu1GMN2xN210QJ'
+run = 'Pangeran'
+gc1 = ''
+gc2 = ''
 linkf = gc1
 wm_rey = 'https://raw.githubusercontent.com/RTeam1/database/'
-namaig = 'https://instagram.com/bah.raid'
-namagh = 'https://github.com/RTeam1'
+namaig = 'https://instagram.com/pangerann21_'
+namagh = 'Subcribe Chanel YT Sahabat DR🙏'
 kasihcaption = `support terus ${namaig}\ndan \n${namagh}`
-browsername = './RyuuTodd'
+browsername = './Pangeran'
 titler = '𝙍𝙚𝙖𝙡 𝙁𝙖𝙢𝙨 𝙆𝙞𝙡𝙡𝙚𝙧'//'https://ryuuzeyy.xyz'
 body = './Riri'
 linkf = gc1
