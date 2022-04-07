@@ -46,7 +46,6 @@ let handler = async (m, { conn, text }) => {
         mentionedJid: [m.sender,user]
       }})
     }
-  } 
 }
 handler.help = ['terima @tag']
 handler.tags = ['jadian']
