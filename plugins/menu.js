@@ -239,63 +239,63 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
               "rows": [
                 {
                   "title": `[🧾] Semua Perintah`,
-                  "description": "Memberikan Semua Fitur Bot",
+                  "description": "Memberikan Semua Fitur Bot Koko Pangeran",
                   "rowId": ".? all"
                 }, {
                   "title": "[🕋] Islam",
-                  "description": "Menu Tentang Islam",
+                  "description": "Menu Tentang Islam Koko Pangeran",
                   "rowId": ".? quran"
                 }, {
                   "title": "[🏫] Edukasi",
-                  "description": "Menu Edukasi",
+                  "description": "Menu Edukasi Koko Pangeran",
                   "rowId": ".? edukasi"
                 }, {
                   "title": "[📰] News",
-                  "description": "Menu Berita",
+                  "description": "Menu Berita Koko Pangeran",
                   "rowId": ".? News"
                 },  {
                   "title": "[🎮] Game",
-                  "description": "Menu Game",
+                  "description": "Menu Game Koko Pangeran",
                   "rowId": ".? game"
                 }, {
                   "title": "[🗺️] Epic Rpg",
-                  "description": "Menu Game RPG",
+                  "description": "Menu Game RPG Koko Pangeran",
                   "rowId": ".? rpg"
                 }, {
                   "title": "[📈] XP",
-                  "description": "XP Dan Level",
+                  "description": "XP Dan Level Koko Pangeran",
                   "rowId": ".? xp"
                 },  {
                   "title": "[🔞] NSFW",
-                  "description": "Menu Bokep",
+                  "description": "Menu Bokep Koko Pangeran",
                   "rowId": ".? nsfw"
                 }, {
                   "title": "[🖼️] Random Image",
-                  "description": "Menu Foto Random",
+                  "description": "Menu Foto Random Koko Pangeran",
                   "rowId": ".? image"
                 }, {
                   "title": "[🎇] Stiker",
-                  "description": "Menu Buat Stiker",
+                  "description": "Menu Buat Stiker Koko Pangeran",
                   "rowId": ".? stiker"
                 }, {
                   "title": "[🐚] Kerang Ajaib",
-                  "description": "Menurut Kerang ajaib....",
+                  "description": "Menurut Kerang Ajaib Koko Pangeran",
                   "rowId": ".? kerangajaib"
                 }, {
                   "title": "[📑] Quotes",
-                  "description": "Menu Quotes",
+                  "description": "Menu Quotes Koko Pangeran",
                   "rowId": ".? quotes"
                 }, {
                   "title": "[🏛️] Admin",
-                  "description": "Menu Admin Group",
+                  "description": "Menu Admin Group Koko Pangeran",
                   "rowId": ".? admin"
                 }, {
                   "title": "[🏢] Grup",
-                  "description": "Menu Group",
+                  "description": "Menu Group Koko Pangeran",
                   "rowId": ".? grup"
                 }, {
                   "title": "[🔝] Premium",
-                  "description": "Menu Untuk IstriKu",
+                  "description": "Menu Untuk Istri Koko Pangeran",
                   "rowId": ".? premium"
                 }, {
                   "title": "[🖥️] Internet",
@@ -307,7 +307,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": ".? anonymous"
                 }, {
                   "title": "[✒️] Nulis & Logo",
-                  "description": "Menu Nulis & Logo",
+                  "description": "Menu Nulis & Logo Koko Pangeran",
                   "rowId": ".? nulis"
                 }, {
                   "title": "[📺] Downloader",
@@ -327,7 +327,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": ".? database"
                 }, {
                   "title": "[📝] Vote & Absen",
-                  "description": "Menu Vote & Absen",
+                  "description": "Menu Vote & Absen Koko Pangeran",
                   "rowId": ".? vote"
                 }, {
                   "title": "[🎙️] Pengubah Suara",
