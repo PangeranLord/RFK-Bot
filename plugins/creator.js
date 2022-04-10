@@ -4,7 +4,7 @@ function handler(m) {
   	listOwner.push({ vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:${this.getName(i)}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Work\nURL;Web gwejh: http://instagram.com/pangerann21_\nEMAIL;y: pangeran.dwnta23@gmail.com\nORG: BUKAN BOT + NO SAVE\nTEL;NO CHAT P ANJG;waid= ${i.split('@')[0]}:${i.split('@')[0]}\nEND:VCARD` })
   }
   let send = this.sendMessage(m.chat, { displayName: listOwner.length + ' kontak', contacts: listOwner }, 'contactsArrayMessage', { quoted: m })
-return m.reply('Itu No Ownku yg _*Ganteng/Cantik Kak😙*_\n\n_*Tidak Menerima Chat "P" Dan Sv Sv an!*_\n*Jangan Chat Own Cewe ye anj‼️*')
+return m.reply('Itu No Ownku yg _*Ganteng Kak😙*_\n\n_*Tidak Menerima Chat "P" Utamakan Salam Sayang*_\n*Menerima Sv Cwe Saja💦*')
 }
 
 handler.help = ['owner', 'creator']
