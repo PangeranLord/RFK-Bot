@@ -5,6 +5,10 @@ autoreyad = false
 autoon = true
 autoketik = false
 autovn = true
+pconly = false
+gconly = false
+rpc = false
+rgc = false
 
 
 let util = require('util')
@@ -52,10 +56,15 @@ if (autoon === true) conn.updatePresence(m.chat, Presence.available) //
 if (autoketik === true) conn.updatePresence(m.chat, Presence.composing) //
 if (autovn === true) conn.updatePresence(m.chat, Presence.recording) //
 if (autoreyad === true) await this.chatRead(m.chat).catch(() => { })
+// ada yang berani perbaiki autoread PC & GC only?
+if (rpc === true) await this.chatRead(m.chat.endsWith('g.us')).catch(() => { })
+if (rgc === true) await this.chatRead(!m.chat.endsWith('g.us')).catch(() => { })
 if (!isCreator && modepublic === false) return
+if (m.chat.endsWith('g.us') && !isCreator && pconly === true) return
+if (!m.chat.endsWith('g.us') && !isCreator && gconly === true) return
 if (opts['nyimak']) return
-if (opts['pconly'] && m.chat.endsWith('g.us')) return
-if (opts['gconly'] && !m.chat.endsWith('g.us')) return
+//if (opts['pconly'] && m.chat.endsWith('g.us')) return
+//if (opts['gconly'] && !m.chat.endsWith('g.us')) return
 if (opts['swonly'] && m.chat !== 'status@broadcast') return
 
 
@@ -215,7 +224,7 @@ if (opts['swonly'] && m.chat !== 'status@broadcast') return
             lasthunt: 0,
             lastweekly: 0,
             lastmonthly: 0,
-            registered: false,
+            registered: true,
             name: this.getName(m.sender),
             age: -1,
             regTime: -1,
@@ -243,7 +252,7 @@ if (opts['swonly'] && m.chat !== 'status@broadcast') return
         } else global.db.data.chats[m.chat] = {
           isBanned: false,
           welcome: false,
-          detect: false,
+          detect: true,
           sWelcome: '',
           sBye: '',
           sPromote: '',
@@ -606,10 +615,10 @@ global.dfail = (type, m, conn) => {
     rowner: '⚠️☣️Akses ditolak,☣️⚠️\n\nSilahkan hubungi️ _*Pemilik Bot!*_',
     owner: '⚠️☣️Akses ditolak,☣️⚠️\n\nSilahkan hubungi ️_*OWNER!*_',
     mods: '⚠️☣️Akses ditolak,☣️⚠️\n\nSilahkan hubungi️ _*Moderator!*_',
-    premium: '⚠️☣️Khusus Istri Pangeran Saja(PREMIUM)☣️⚠️',
+    premium: '⚠️☣️Khusus Istri Pangeran Saja _*Premium*_☣️⚠️',
     group: 'Perintah ini hanya dapat digunakan di grup!',
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
-    admin: 'Lah emng Lo admin Group Sini Anj*ng‼️',
+    admin: '_*Khusus Admin Group Sini Bby😙*_',
     nsfw: 'Perintah ini hanya bisa diaktifkan oleh owner',
     botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
     unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar ${name}.16*`
