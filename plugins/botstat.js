@@ -1,8 +1,7 @@
 /*Watermark By :
-> Nurutomo
-> RyuuZeyy
-> RFK Bot
-
+> NURUTOMO
+> Koko Pangeran
+> KOKO Bot
 Udah digabung semuanya jadi 1
 */
 
@@ -63,10 +62,12 @@ let format = sizeFormatter({
     
 ┌─〔 Status 〕
 ├${modepublic ? '> PUBLIC-MODE' : '> SELF-MODE'}
-├${autoreyad ? '> Auto Read Aktif' : '> Auto Read Nonaktif'}
-├${autoon ? '> Auto Online Aktif' : '> Auto Online Nonaktif'}
-├${autoketik ? '> Auto Ketik Aktif' : '> Auto Ketik Nonaktif'}
-├${autovn ? '> Auto VN Aktif' : '> Auto VN Nonaktif'}
+├${autoreyad ? '> Otomatis Read ✅' : '> Auto Read ❌'}
+├${autoon ? '> Otomatis Online ✅' : '> Auto Online ❌'}
+├${autoketik ? '> Otomatis Ketik ✅' : '> Auto Ketik ❌'}
+├${autovn ? '> Otomatis VN ✅' : '> Auto VN ❌'}
+├${pconly ? '> Hanya respon di pribadi ✅' : '> Hanya respon di pribadi ❌'}
+├${gconly ? '> Hanya respon di grup ✅' : '> Hanya respon di grup ❌'}
 ├
 ├ Aktif selama ${uptime}
 ├ Baterai : ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
@@ -78,7 +79,6 @@ let format = sizeFormatter({
 ├ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 ├ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 └────
-
 ┌─〔 Pengaturan 〕
 ├ ${anon ? '✅' : '❌'} *Anon Chat*
 ├ ${anticall ? '✅' : '❌'} *Anti Call*
@@ -89,32 +89,24 @@ let format = sizeFormatter({
 ├ ${jadibot ? '✅' : '❌'} *Jadi Bot*
 ├ ${nsfw ? '✅' : '❌'} *Mode Nsfw*
 └────
-
 💻 *Server Info* :
 RAM: ${format(os.totalmem() - os.freemem())} / ${format(os.totalmem())}
-
 _NodeJS Memory Usage_
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
-
 ${cpus[0] ? `_Total CPU Usage_
 ${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
-
 _CPU Core(s) Usage (${cpus.length} Core CPU)_
 ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}` : ''}
     `.trim())
 
 let txt1 = `
 Merespon dalam ${speed} millidetik
-
 💻 *Server Info* :
 RAM: ${format(os.totalmem() - os.freemem())} / ${format(os.totalmem())}
-
 _NodeJS Memory Usage_
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
-
 ${cpus[0] ? `_Total CPU Usage_
 ${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
-
 _CPU Core(s) Usage (${cpus.length} Core CPU)_
 ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}` : ''}
 `.trim()
