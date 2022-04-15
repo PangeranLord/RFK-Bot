@@ -5,8 +5,8 @@ autoreyad = false
 autoon = true
 autoketik = false
 autovn = true
-pconly = false
-gconly = false
+pconly = true
+gconly = true
 rpc = false
 rgc = false
 
@@ -615,7 +615,7 @@ global.dfail = (type, m, conn) => {
     rowner: '⚠️☣️Akses ditolak,☣️⚠️\n\nSilahkan hubungi️ _*Pemilik Bot!*_',
     owner: '⚠️☣️Akses ditolak,☣️⚠️\n\nSilahkan hubungi ️_*OWNER!*_',
     mods: '⚠️☣️Akses ditolak,☣️⚠️\n\nSilahkan hubungi️ _*Moderator!*_',
-    premium: '⚠️☣️Khusus Istri Pangeran Saja _*Premium*_☣️⚠️',
+    premium: '⚠️☣️Khusus Istri Pangeran Saja _*[Premium]*_☣️⚠️',
     group: 'Perintah ini hanya dapat digunakan di grup!',
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
     admin: '_*Khusus Admin Group Sini Bby😙*_',
