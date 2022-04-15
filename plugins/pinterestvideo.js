@@ -1,4 +1,4 @@
-const { pin } = require('../lib/scrape')
+const { pin } = require('./lib/scrape')
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 
