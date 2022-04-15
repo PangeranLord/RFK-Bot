@@ -23,6 +23,7 @@ handler.help = ['igstalk2 @username']
 handler.tags = ['downloader']
 handler.command = /^(igstalk2)$/i
 handler.limit = true
+handler.premium = true
 
 module.exports = handler
 
