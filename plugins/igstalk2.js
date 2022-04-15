@@ -17,13 +17,13 @@ Contoh: ${usedPrefix}${command} pangerann21_
 • *Bio:* ${json.bio}
 • *Link:* https://instagram.com/${json.username}
 `.trim()
-  conn.sendFile(m.chat, json.profilePicHD, 'error.jpg', iggs, m)
+  conn.sendFile(m.chat, json.profilePicHD, 'eror.jpg', iggs, m)
 }
-handler.help = ['igstalk2 @username']
+handler.help = ['igstalk <username>']
 handler.tags = ['downloader']
-handler.command = /^(igstalk2)$/i
-handler.limit = true
+handler.command = /^(igstalk)$/i
 handler.premium = true
+handler.limit = true
 
 module.exports = handler
 
