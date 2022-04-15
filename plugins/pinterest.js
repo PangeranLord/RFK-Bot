@@ -1,3 +1,4 @@
+const { pinterest } = require('./lib/scrape')
 let fetch = require('node-fetch')
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text) throw `uhm. cari apa?\n\ncontoh:\n${usedPrefix + command} logo`
@@ -8,7 +9,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   conn.sendButtonImg(m.chat, await (await fetch(json.result)).buffer(), 'Nih', footer, 'Next', `${usedPrefix + command} ${text}`, m, 0, { thumbnail: await (await fetch(json.result)).buffer() })
 }
 handler.help = ['pinterest <pencarian>']
-handler.tags = ['image']
+handler.tags = ['downloader']
 handler.command = /^(pint(erest)?)$/i
 
 module.exports = handler
