@@ -29,7 +29,7 @@ supaya saya menambahkan nama Anda disini
 global.linkGC = [''] // ganti jadi group lu
 
 //Berbagai itu indah @Parel / Rxfly 
-global.owner = ['6287832147584', '6287822257028'] // Put your number here
+global.owner = ['6287832147584', '6287822257028', '6285717616804'] // Put your number here
 global.mods = ['6287822257028'] // Want some help?
 global.prems = ['0','6287822257028','6287832147584'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
@@ -104,8 +104,8 @@ footer = 'ᵈʳᴋᴏᴋᴏ ᴘᴀɴɢᴇʀᴀɴƸ̵̡Ӝ̵̨̄Ʒ'
 namabot = 'ᵈʳᴋᴏᴋᴏ ᴘᴀɴɢᴇʀᴀɴƸ̵̡Ӝ̵̨̄Ʒ'
 bc = namabot
 //bc = 'ＪＥＭ － Ｂｏｔ'
-namaowner = 'Koko Pangeran'
-ceco = 'Ganteng🗿🚬'
+namaowner = 'KOKO PANGERAN'
+ceco = 'Jelek🗿🚬'
 let tum = fs.readFileSync('./IMG-20220318-WA0066.jpg')
 let tum1 = fs.readFileSync('./IMG-20220318-WA0066.jpg')
 let tum2 = fs.readFileSync('./IMG-20220324-WA0109.jpg')
@@ -123,7 +123,7 @@ namaig = 'https://instagram.com/pangerann21_'
 namagh = 'Subcribe Chanel YT Sahabat DR🙏'
 kasihcaption = `support terus ${namaig}\ndan \n${namagh}`
 browsername = './Pangeran'
-titler = '𝙍𝙚𝙖𝙡 𝙁𝙖𝙢𝙨 𝙆𝙞𝙡𝙡𝙚𝙧'//'https://ryuuzeyy.xyz'
+titler = 'Pangeran'//'https://ryuuzeyy.xyz'
 body = './Riri'
 linkf = gc1
 // WM = ./ReyToddd
