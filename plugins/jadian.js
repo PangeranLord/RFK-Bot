@@ -7,7 +7,7 @@ let jodoh = member[Math.floor(Math.random() * member.length)]
 let jawab = `@${orang.replace(/@.+/, '')} ❤️ @${jodoh.replace(/@.+/, '')}`.trim()
 let mentionedJid = [orang, jodoh]
 //conn.reply(m.chat, jawab, m, { contextInfo: { mentionedJid } })
-await conn.sendButton(m.chat, jawab, footer, 'Sayang Pangeran😘', `${usedPrefix + command}`, m, { contextInfo: { mentionedJid } })
+await conn.sendButton(m.chat, jawab, footer, 'I ❤️ U Pangeran.', `${usedPrefix + command}`, m, { contextInfo: { mentionedJid } })
 }
 handler.help = ['jodohin', 'jodohku']
 handler.tags = ['fun']
