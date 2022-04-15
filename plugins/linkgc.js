@@ -16,7 +16,7 @@ handler.command = /^link(gro?up)?$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
-handler.group = trur
+handler.group = true
 handler.private = false
 
 handler.admin = true
