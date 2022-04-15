@@ -1,6 +1,7 @@
 // Thanks to Bochilgaming
 const axios = require('axios')
 const cheerio = require('cheerio')
+const { igstalk } = require('../lib/scrape')
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
   if (!args || !args[8]) throw `Gunakan format ${usedPrefix}${command} [username]
