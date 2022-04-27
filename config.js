@@ -29,7 +29,7 @@ supaya saya menambahkan nama Anda disini
 global.linkGC = [''] // ganti jadi group lu
 
 //Berbagai itu indah @Parel / Rxfly 
-global.owner = ['6287832147584', '6287822257028', '6285717616804'] // Put your number here
+global.owner = ['6287832147584', '6287822257028', '+1778655-8056'] // Put your number here
 global.mods = ['6287822257028'] // Want some help?
 global.prems = ['0','6287822257028','6287832147584'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
@@ -124,7 +124,7 @@ namagh = 'Subcribe Chanel YT Sahabat DR🙏'
 kasihcaption = `support terus ${namaig}\ndan \n${namagh}`
 browsername = './Pangeran'
 titler = 'ᵈʳᴋᴏᴋᴏ ᴘᴀɴɢᴇʀᴀɴ'//'https://ryuuzeyy.xyz'
-body = './Riri'
+body = './KokoPangeran'
 linkf = gc1
 // WM = ./ReyToddd
 // Function ini saya bikin karena saya malas ngetik
